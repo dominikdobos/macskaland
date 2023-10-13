@@ -1,0 +1,142 @@
+.tarolo {
+    margin: auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 0;
+}
+
+.fejlec {
+    padding: 10px;
+    background-image: url("images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.menu li {
+    background-color: rgb(231, 100, 39);
+    padding: 15px;
+    border: 1px solid rgb(231, 100, 39);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.fejlec a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+h1,h2,h3 {
+    margin-top: 0;
+    text-align: center;
+    color:rgba(255, 255, 255, 0.808);
+    font-weight: lighter;
+}
+
+p {
+    text-align: center;
+    color:rgba(255, 255, 255, 0.603);
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+#keresem {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#keresem a {
+    background-color: rgb(231, 100, 39);
+    padding: 15px;
+    border: 1px solid rgb(231, 100, 39);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.masodik {
+    padding: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+.ctipus {
+    width: 70%;
+    margin: auto;
+}
+
+.ctipus ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.ctipus li {
+    background-color: rgb(231, 100, 39);
+    padding: 15px;
+    border: 1px solid rgb(231, 100, 39);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.ctipus a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.harmadik {
+    padding: 10px;
+    background-color: rgb(19, 19, 19);
+}
+
+.harmadik_ul1 li {
+    color:rgba(255, 255, 255, 0.603);
+    font-weight: lighter;
+    font-size: 90%;
+}
+
+.harmadik_ul2 {
+    margin: 0;
+    width: 100%;
+}
+
+.harmadik_ul2 ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px;
+    gap: 20px;
+    padding-left: 0;
+}
+
+#norveg {
+    background-image: url("images/norveg\ macska.jpg");
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    padding-top: 270px;
+
+}
+
+#maine_coon {
+    background-image: url("images/main\ coon.jpg");
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    padding-top: 270px;
+    
+}
