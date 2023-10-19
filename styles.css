@@ -106,24 +106,7 @@ p {
     font-size: 90%;
 }
 
-.harmadik_ul2 {
-    margin: 0;
-    width: 100%;
-}
-
-.harmadik_ul2 ul {
-    list-style: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 300px;
-    gap: 20px;
-    padding-left: 0;
-}
-
-
-/* ----------------------------------------------------- */
-
-.harmadikkepek {
+.duplakepek {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -133,6 +116,7 @@ p {
 .macskkep1 {
     background: url("images/norveg\ macska.jpg") no-repeat;
     background-size: cover;
+    height: 350px;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -151,7 +135,7 @@ p {
 .macskkep2 {
     background: url("images/main\ coon.jpg") no-repeat;
     background-size: cover;
-    height: 300px;
+    height: 350px;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -167,6 +151,44 @@ p {
     left: 0;
 }
 
+.macskkep3 {
+    background: url("images/bengali.jpg") no-repeat;
+    background-size: cover;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.macskkep3 h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.macskkep4 {
+    background: url("images/meg\ ez\ a\ cica.jpg") no-repeat;
+    background-size: cover;
+    height: 350px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.macskkep4 h3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
 .osszefog {
     width: 95%;
     margin: auto;
@@ -174,6 +196,60 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-bottom: 15px;
+}
+.osszefogas {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.ot_blokk {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ot_h2 {
+    color: black;
+    text-align: justify;
+    font-weight: 550;
+    margin-top: 0;
+}
+
+.ot_p {
+    color: black;
+    text-align: justify;
+
+}
+
+.ikon {
+    width: 30%;
+    height: 30%;
+}
+
+.erdekel {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    margin-top: 5px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.erdekel a {
+    width: auto;
+    margin: auto;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    width: 80%;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: rgb(231, 100, 39);
+    border-radius: 100px;
+    text-align: center;
 }
 
 .hatodik {
